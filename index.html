@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> -->
+
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <a href="#" class="logo">DEVA</a>
+        <!-- <a href="#"><img src="https://fontmeme.com/permalink/240804/0bf62127991cfd77ab74b9f5dd9e6353.png" class="logo" alt="avengers-font" border="0" style="width: 80PX; height: 30px;"></a> -->
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" style="--i:1" class="active">Home</a>
+            <a href="#skills" style="--i:2">Skills</a>
+            <a href="#projects" style="--i:3">Projects</a>
+            <a href="#education" style="--i:4">Education</a>
+            <a href="#contact" style="--i:5">Contact</a>
+        </nav>
+
+    </header>
+    <!-- home section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, Myself</h3>
+            <h1><span class="text"></span></h1>
+            <h3>And i'm a <span>Frontend Developer</span></h3>
+            <p>I'm a frontend Developer with a passion for creating beautiful and functional websites.
+                I have experience working with HTML, CSS, JavaScript and some frontend frameworkes. My goal is to
+                bring your ideas to life and create  engaging user experiences that make your business stand out.
+            </p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/stark.deva.7" target="_blank" style="--i:6"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/stark_deva_?igsh=aDVhc2Zxbmk0aG02" target="_blank" style="--i:7"><i class='bx bxl-instagram'></i></a>
+                <a href="https://wa.me/8807245672" target="_blank" style="--i:8"><i class='bx bxl-whatsapp'></i></a>
+                <a href="https://www.linkedin.com/in/devakumarang" target="_blank" style="--i:9"><i class='bx bxl-linkedin-square'></i></a>
+            </div>
+            <a href="./DEVAKUMARAN G RESUME.pdf.pdf" download="Devakumaran-G-Resume" class="btn">Get Resume <i class='bx bx-cloud-download'></i></a>
+        </div>
+        <div class="home-img">
+            <img src="profile.jpg" alt="">
+        </div>
+    </section>
+    <!-- skill section -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="Technical-bars">
+            <div class="bar"><i class='bx bxl-html5' style="color: #f15a1f; font-size: 40px;"></i>
+                <div class="info">
+                    <span>HTML</span>
+                </div>
+                <div class="progress-line html">
+                    <span></span>
+                </div>
+            </div>
+            <div class="bar"><i class='bx bxl-css3' style="color: #61bdf7; font-size: 40px;"></i>
+                <div class="info">
+                    <span>CSS</span>
+                </div>
+                <div class="progress-line css">
+                    <span></span>
+                </div>
+            </div>
+            <div class="bar"><i class='bx bxl-bootstrap' style="color: #9e0deb; font-size: 40px;"></i>
+                <div class="info">
+                    <span>Bootstrap</span>
+                </div>
+                <div class="progress-line bootstrap">
+                    <span></span>
+                </div>
+            </div>
+            <div class="bar"><i class='bx bxl-javascript' style="color: #dcf11e; font-size: 40px;"></i>
+                <div class="info">
+                    <span>Javascript</span>
+                </div>
+                <div class="progress-line javascript">
+                    <span></span>
+                </div>
+            </div>
+            <div class="bar"><i class='bx bxl-python' style="color: #0a8cdd; font-size: 40px;"></i>
+                <div class="info">
+                    <span>Python</span>
+                </div>
+                <div class="progress-line python">
+                    <span></span>
+                </div>
+            </div>
+            <div class="bar"><i class='bx bxl-react' style="color: cyan; font-size: 40px;"></i>
+                <div class="info">
+                    <span>React Js</span>
+                </div>
+                <div class="progress-line react">
+                    <span></span>
+                </div>
+            </div>
+            <div class="bar"><i class='bx bx-data' style="color: #ff9f19; font-size: 40px;"></i>
+                <div class="info">
+                    <span>MySql</span>
+                </div>
+                <div class="progress-line mysql">
+                    <span></span>
+                </div>
+            </div>
+
+        </div>
+       
+
+    </section>
+
+    <!-- project section -->
+    <section class="projects" id="projects">
+        <h2 class="heading">My <span>Projects</span></h2>
+        <div class="projects-flex">
+            <div class="projects-item">
+                <h3>Crud Operation Using Javascript</h3>
+                <p>A simple curd operation buit with HTML, CSS, BOOTSTRAP AND JavaScript.</p>
+                <a target="_blank" href="https://crud-app-using-javascript.netlify.app/" class="btn">Learn More</a>
+            </div>
+            <div class="projects-item">
+                <h3>Pharmacy Management</h3>
+                <p>This app built with MERN Stack and it's for manage the stock and billing purpose. Sample screenshots given below.</p>
+                <a target="_blank" href="https://pharmacy-screenshot-sample.netlify.app/" class="btn">Learn More</a>
+            </div>
+            <div class="projects-item">
+                <h3> A Simple Login Page using Html </h3>
+                <p>In this website build with help of HTML and CSS. And responsive design.</p>
+                <a target="_blank" href="https://simple-login-page-deva.netlify.app/" class="btn">Learn More</a>
+
+
+            </div>
+        </div>
+
+    </section>
+    <!-- education -->
+     <section class="education" id="education">
+        <h2 class="heading">My <span>Education</span></h2>
+        <div class="projects-flexs">
+            <div class="projects-items">
+                <h3>MCA | 2024 | 78%</h3>
+                <p>SNS College Of Technology, <br>Saravanapatti - Coimbatore, <br> Anna University.</p>
+            </div>
+            <div class="projects-items">
+                <h3>BCA | 2022 | 83%</h3>
+                <p>Sri Vidya Mandir Arts and Science College,<br> Uthangarai - Krishnagiri,<br>Periyar University.</p>
+                
+            </div>
+            <div class="projects-items">
+                <h3>HSC | 2019 | 66.66%</h3>
+                <p>Sri Ramana Maharashi Metric Hr Sec School, <br> Kaveriyampoondi - Tiruvannamalai,<br> State Board.</p>
+            </div>
+            <div class="projects-items">
+                <h3>SSLC | 2017 | 78%</h3>
+                <p>Sri Ramana Maharashi Metric Hr Sec School,<br> Kaveriyampoondi - Tiruvannamalai,<br> State Board.</p>
+            </div>
+        </div>
+     </section>
+<!-- contact section  -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" autocomplete="off">
+                <input type="email" placeholder="Email Address" autocomplete="off">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Phone No" autocomplete="off">
+                <input type="text" placeholder="Subject" autocomplete="off">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" autocomplete="off"></textarea>
+            <input type="submit" value="Send message" class="btn">
+        </form>
+        
+    </section>
+<!-- footer section -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyrights &copy; 2024 by @devakumaran | All Rights Reserved.</p>
+        </div>
+        <div class="footer-icon">
+            <a href="#home"><i class='bx bxs-upvote'></i></i></a>
+        </div>
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
